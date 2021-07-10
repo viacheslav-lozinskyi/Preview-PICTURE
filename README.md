@@ -1,10 +1,10 @@
-![Image](https://img.shields.io/github/license/viacheslav-lozinskyi/Preview-PICTURE)
-![Image](https://img.shields.io/github/issues/viacheslav-lozinskyi/Preview-PICTURE)
-![Image](https://img.shields.io/github/stars/viacheslav-lozinskyi/Preview-PICTURE)
-![Image](https://img.shields.io/github/languages/code-size/viacheslav-lozinskyi/Preview-PICTURE)
-![Image](https://img.shields.io/badge/VS-2022-blueviolet)
-![Image](https://img.shields.io/badge/VS-2019-blueviolet)
-![Image](https://img.shields.io/badge/VS-2017-blueviolet)
+![GitHub](https://img.shields.io/github/license/viacheslav-lozinskyi/Preview-PICTURE)
+[![GitHub issues](https://img.shields.io/github/issues/viacheslav-lozinskyi/Preview-PICTURE)](https://github.com/viacheslav-lozinskyi/Preview-PICTURE/issues)
+[![GitHub Repo stars](https://img.shields.io/github/stars/viacheslav-lozinskyi/Preview-PICTURE)](https://github.com/viacheslav-lozinskyi/Preview-PICTURE/stargazers)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/viacheslav-lozinskyi/Preview-PICTURE)](https://github.com/viacheslav-lozinskyi/Preview-PICTURE)
+[![Image](https://img.shields.io/badge/VS-2022-blueviolet)](https://marketplace.visualstudio.com/items?itemName=ViacheslavLozinskyi.MetaOutput-2022)
+[![Image](https://img.shields.io/badge/VS-2019-blueviolet)](https://marketplace.visualstudio.com/items?itemName=ViacheslavLozinskyi.MetaOutput-2019)
+[![Image](https://img.shields.io/badge/VS-2017-blueviolet)](https://marketplace.visualstudio.com/items?itemName=ViacheslavLozinskyi.MetaOutput-2019)
 
 ---
 
