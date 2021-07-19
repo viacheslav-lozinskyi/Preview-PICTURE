@@ -10,7 +10,7 @@ namespace resource.preview
         protected override void _Execute(atom.Trace context, int level, string url, string file)
         {
             var a_Context = SvgDocument.Open(file);
-            var a_Name = GetUrlPreview(file, ".png");
+            var a_Name = atom.Trace.GetUrlPreview(file, ".png");
             {
                 var a_Context1 = a_Context.Draw();
                 if (a_Context1 != null)
@@ -36,8 +36,8 @@ namespace resource.preview
             {
                 var a_Size = GetProperty(NAME.PROPERTY.PREVIEW_MEDIA_SIZE, true);
                 {
-                    a_Size = Math.Min(a_Size, (int)a_Context.Bounds.Height / CONSTANT.OUTPUT_PREVIEW_ITEM_HEIGHT);
-                    a_Size = Math.Max(a_Size, CONSTANT.OUTPUT_PREVIEW_MIN_SIZE);
+                    a_Size = Math.Min(a_Size, (int)a_Context.Bounds.Height / CONSTANT.OUTPUT.PREVIEW_ITEM_HEIGHT);
+                    a_Size = Math.Max(a_Size, CONSTANT.OUTPUT.PREVIEW_MIN_SIZE);
                 }
                 for (var i = 0; i < a_Size; i++)
                 {
