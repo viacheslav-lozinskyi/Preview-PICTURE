@@ -24,7 +24,7 @@ namespace resource.package
             public const string DESCRIPTION = "Quick preview the most popular picture files";
             public const string GUID = "3A2DFCCD-20AE-48B2-871E-91F71042D6DD";
             public const string NAME = "Preview-PICTURE";
-            public const string VERSION = "1.0.9";
+            public const string VERSION = "1.0.10";
         }
 
         protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
