@@ -8,16 +8,19 @@
 
 ---
 
+## Important information:
 [![MetaOutput](https://www.metaoutput.net/_functions/watch?utm_source=github.com&utm_medium=referral&utm_campaign=view-on-github&utm_content=Preview-PICTURE&source=GITHUB&size=128x128&project=Preview-PICTURE&url=https://github.com/viacheslav-lozinskyi/Preview-PICTURE)](https://www.metaoutput.net/)
 
-### This extension is working only with installed [MetaOutput](https://www.metaoutput.net/) extension!
+This extension is working only with installed [MetaOutput](https://www.metaoutput.net/) extension!
 
 ---
 
-### Now you can look inside [BMP](https://en.wikipedia.org/wiki/BMP_file_format), [CUR](https://en.wikipedia.org/wiki/ICO_(file_format)), [DNG](https://en.wikipedia.org/wiki/Digital_Negative), [GIF](https://en.wikipedia.org/wiki/GIF), [ICO](https://en.wikipedia.org/wiki/ICO_(file_format)), [JFIF](https://en.wikipedia.org/wiki/JPEG_File_Interchange_Format), [JPG](https://en.wikipedia.org/wiki/JPEG), [JPEG](https://en.wikipedia.org/wiki/JPEG), [JPE](https://en.wikipedia.org/wiki/JPEG), [PNG](https://en.wikipedia.org/wiki/Portable_Network_Graphics), [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) and [TIFF](https://en.wikipedia.org/wiki/TIFF) file not opening it.
+## Description:
+Now you can look inside [BMP](https://en.wikipedia.org/wiki/BMP_file_format), [CUR](https://en.wikipedia.org/wiki/ICO_(file_format)), [DNG](https://en.wikipedia.org/wiki/Digital_Negative), [GIF](https://en.wikipedia.org/wiki/GIF), [ICO](https://en.wikipedia.org/wiki/ICO_(file_format)), [JFIF](https://en.wikipedia.org/wiki/JPEG_File_Interchange_Format), [JPG](https://en.wikipedia.org/wiki/JPEG), [JPEG](https://en.wikipedia.org/wiki/JPEG), [JPE](https://en.wikipedia.org/wiki/JPEG), [PNG](https://en.wikipedia.org/wiki/Portable_Network_Graphics), [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) and [TIFF](https://en.wikipedia.org/wiki/TIFF) file not opening it.
 
 ---
 
+## How it works:
 ![Image](https://viacheslav-lozinskyi.github.io/Preview-PICTURE/resource/video/Presentation1.gif)
 
 ---

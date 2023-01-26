@@ -20,7 +20,7 @@ namespace resource.package
         internal static class CONSTANT
         {
             public const string APPLICATION = "Visual Studio";
-            public const string COPYRIGHT = "Copyright (c) 2020-2022 by Viacheslav Lozinskyi. All rights reserved.";
+            public const string COPYRIGHT = "Copyright (c) 2020-2023 by Viacheslav Lozinskyi. All rights reserved.";
             public const string DESCRIPTION = "Quick preview the most popular picture files";
             public const string GUID = "3A2DFCCD-20AE-48B2-871E-91F71042D6DD";
             public const string NAME = "Preview-PICTURE";
