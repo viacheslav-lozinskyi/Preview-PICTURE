@@ -34,14 +34,16 @@ namespace resource.preview
                 }
             }
             {
-                var a_Size = GetProperty(NAME.PROPERTY.PREVIEW_MEDIA_SIZE, true);
+                var a_Count = GetProperty(NAME.PROPERTY.PREVIEW_MEDIA_SIZE, true);
                 {
-                    a_Size = Math.Min(a_Size, (int)a_Context.Bounds.Height / CONSTANT.OUTPUT.PREVIEW_ITEM_HEIGHT);
-                    a_Size = Math.Max(a_Size, CONSTANT.OUTPUT.PREVIEW_MIN_SIZE);
+                    a_Count = Math.Min(a_Count, (int)a_Context.Bounds.Height / CONSTANT.OUTPUT.PREVIEW_ITEM_HEIGHT);
+                    a_Count = Math.Max(a_Count, CONSTANT.OUTPUT.PREVIEW_MIN_SIZE);
                 }
-                for (var i = 0; i < a_Size; i++)
                 {
-                    context.Send(NAME.SOURCE.PREVIEW, NAME.EVENT.PREVIEW, level);
+                    context.
+                        SetControl(NAME.CONTROL.PICTURE).
+                        SetCount(a_Count).
+                        Send(NAME.SOURCE.PREVIEW, NAME.EVENT.CONTROL, level);
                 }
             }
             {

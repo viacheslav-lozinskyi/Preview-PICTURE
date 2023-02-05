@@ -45,7 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MetaOutput.Media">
-      <Version>1.0.4</Version>
+      <Version>1.0.5</Version>
     </PackageReference>
     <PackageReference Include="Svg">
       <Version>3.4.4</Version>
