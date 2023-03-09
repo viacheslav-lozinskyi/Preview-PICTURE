@@ -43,6 +43,7 @@ namespace resource.preview
                     context.
                         SetControl(NAME.CONTROL.PICTURE).
                         SetCount(a_Count).
+                        SetUrlPreview(file).
                         Send(NAME.SOURCE.PREVIEW, NAME.EVENT.CONTROL, level);
                 }
             }
