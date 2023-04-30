@@ -24,6 +24,7 @@ namespace resource.package
             public const string COPYRIGHT = "Copyright (c) 2020-2023 by Viacheslav Lozinskyi. All rights reserved.";
             public const string DESCRIPTION = "Quick preview the most popular picture files";
             public const string GUID = "3A2DFCCD-20AE-48B2-871E-91F71042D6DD";
+            public const string HOST = "MetaOutput";
             public const string NAME = "Preview-PICTURE";
             public const string VERSION = "1.0.10";
         }
@@ -59,7 +60,7 @@ namespace resource.package
                         var a_Context1 = (OutputWindowPane)null;
                         for (var i = a_Context.ToolWindows.OutputWindow.OutputWindowPanes.Count; i >= 1; i--)
                         {
-                            if (a_Context.ToolWindows.OutputWindow.OutputWindowPanes.Item(i).Name == "MetaOutput")
+                            if (a_Context.ToolWindows.OutputWindow.OutputWindowPanes.Item(i).Name == CONSTANT.HOST)
                             {
                                 a_Context1 = a_Context.ToolWindows.OutputWindow.OutputWindowPanes.Item(i);
                                 break;
@@ -67,7 +68,7 @@ namespace resource.package
                         }
                         if (a_Context1 == null)
                         {
-                            a_Context1 = a_Context.ToolWindows.OutputWindow.OutputWindowPanes.Add("MetaOutput");
+                            a_Context1 = a_Context.ToolWindows.OutputWindow.OutputWindowPanes.Add(CONSTANT.HOST);
                         }
                         if (a_Context1 != null)
                         {
