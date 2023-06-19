@@ -10,7 +10,7 @@ namespace resource.preview
         protected override void _Execute(atom.Trace context, int level, string url, string file)
         {
             var a_Context = SvgDocument.Open(file);
-            var a_Name = atom.Trace.GetUrlPreview(file, ".png");
+            var a_Name = atom.Trace.GetUrlTemp(file, ".png");
             {
                 var a_Context1 = a_Context.Draw();
                 if (a_Context1 != null)
@@ -20,8 +20,8 @@ namespace resource.preview
             }
             {
                 context.
-                    SetFontState(NAME.FONT_STATE.BLINK).
-                    SetProgress(NAME.PROGRESS.INFINITE).
+                    SetTrace(null, NAME.STATE.TRACE.BLINK).
+                    SetProgress(CONSTANT.PROGRESS.INFINITE).
                     SetUrlPreview(a_Name).
                     SendPreview(NAME.EVENT.INFO, url);
             }
@@ -160,7 +160,7 @@ namespace resource.preview
             }
             {
                 context.
-                    SetFontState(NAME.FONT_STATE.NONE).
+                    SetTrace(null, NAME.STATE.TRACE.NONE).
                     SetProgress(100).
                     SetUrlPreview(a_Name).
                     SendPreview(NAME.EVENT.INFO, url);
